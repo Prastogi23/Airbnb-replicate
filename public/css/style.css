@@ -1,0 +1,207 @@
+
+.plus-jakarta-sans { 
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 400 !important;
+  font-style: normal;
+
+}
+.cards{
+    height:330px ;
+    width: 300px ;
+    background-color: aqua;
+    border-radius: 35px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.img{
+    height: 220px;
+    width: 220px;
+    border-radius: 25px;
+    
+}
+
+
+/* Navbar */
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+
+.nav-link{
+    color: #222222 !important;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Footer */
+.f-info {
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+    margin-right: 1rem;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-links , .f-info-social ,.f-info-brand{
+   width: 100%;
+   /* display: flex;
+   align-content: center;
+   justify-content: center; */
+ 
+}
+
+.f-info-brand{
+    font-size: 1.5rem;
+}
+
+.f-info-social i{
+    font-size: 1.2rem;
+    margin-right: 1.2rem;
+}
+
+
+/* Styling At INdex page */
+/* .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+
+.card{
+    /* margin-right: 1.3rem ; */
+    border: none !important;
+    margin-bottom: 1.3rem;
+    /* padding-top: 1.5rem; */
+
+}
+
+.card-img-top{
+    height: 296px;
+    width: 250px;
+    /* width: 100%; */
+    border-radius: 15px !important;
+    object-fit: cover !important;
+    }
+
+
+    .card-body{
+        padding: 0 !important;
+    }
+
+    .card-text{
+        font-weight: 400 !important;
+    }
+
+.row a{
+    text-decoration: none;
+}
+
+.card-img-overlay{
+    opacity: 0;
+    background-color: white;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+}
+
+.container{
+    flex: 1;
+}
+
+.btn{
+    border: none !important;
+    background-color: #fe424d !important;
+}
+
+.btn-flex{
+    display: flex;
+}
+
+.edit-btn{
+    border: none !important;
+    background-color: #222222 !important;
+}
+
+
+.show_img{
+    height: 30vh;
+}
+
+.show_card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+input.shadow_border:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+    border: none;
+
+}
+
+
+.btn_submit{
+    margin-top: 25px;
+}
+
+
+.card-border{
+    border: 1px solid black !important;
+}
+
+@media (max-width: 768px) {
+    .form-control {
+      max-width: 300px;
+    }
+  }
+
+
+  /* Optional custom CSS to fine-tune the layout */
+.navbar .form-control {
+    max-width: 500px;
+    width: 100%;
+}
+
+.navbar .btn {
+    margin-left: 10px;
+}
+
+
+/* Marker */
+
+.custom-div-icon {
+    text-align: center;
+}
+.custom-div-icon i {
+    font-size: 40px;
+    color: red; /* Change color as per your preference */
+}
